@@ -1,0 +1,5 @@
+/.DS_Store
+/node_modules/
+/src/mongo/package.json
+/src/.DS_Store
+*.tar
