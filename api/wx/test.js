@@ -7,7 +7,7 @@ async function handler(options) {
 
     return new Promise((resolve, reject) => {
 
-        resolve({heel: 'I am a test api!'})
+        resolve({heel: 'I am a test api!~~ haha'})
 
     })
 }
