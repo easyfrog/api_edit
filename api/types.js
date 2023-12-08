@@ -26,5 +26,5 @@ import https from 'https';
  * http: http,
  * https: https,
  * api_cache: {[api_name: string]: functionString},
- * }} Options
+ * }} API_CONTEXT
  */
