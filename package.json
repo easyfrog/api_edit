@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "create": "node src/createNewApi",
+    "create": "node src/create",
     "save": "node src/save",
     "delete": "node src/delete"
   },
