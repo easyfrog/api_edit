@@ -28,3 +28,19 @@ import https from 'https';
  * api_cache: {[api_name: string]: functionString},
  * }} API_CONTEXT
  */
+
+/**
+ * @typedef {{
+ * ws: WebSocket
+ * uuid: string
+ * heartbeat: () => void
+ * }} WebSocketObject
+ */
+
+/**
+ * @typedef {{
+ * mongo: MongoFunc
+ * wsObj?: WebSocketObject
+ * dict?: {[uuid:string]: WebSocketObject}
+ * }} WebSocketContext
+ */

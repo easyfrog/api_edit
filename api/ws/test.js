@@ -13,7 +13,11 @@ async function handler(data, context) {
 
     return new Promise((resolve, reject) => {
 
+        console.log(Object.keys(dict))
 
+        resolve({
+            msg: 'ws test message'
+        })
 
     })
 }
